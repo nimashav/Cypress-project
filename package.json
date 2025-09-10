@@ -13,12 +13,14 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/nimashav/Cypress-project/issues"
   },
   "homepage": "https://github.com/nimashav/Cypress-project#readme",
-  "dependencies": {
-    "cypress": "^15.0.0"
+  "devDependencies": {
+    "@types/mocha": "^10.0.10",
+    "cypress": "^15.2.0",
+    "typescript": "^5.9.2"
   }
 }
